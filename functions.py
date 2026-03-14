@@ -1,7 +1,10 @@
 
 def promedio_estudiante(calificaciones):
-    return sum(calificaciones)/len(calificaciones)
-calificaciones =[85, 78, 92]
+    if len(calificaciones) == 0:
+        return 0,0
+    return sum(calificaciones) / len(calificaciones) 
+
+calificaciones =[85, 92, 78]     
 promedio = promedio_estudiante(calificaciones)
-print(float(promedio))
+print(promedio)
 
