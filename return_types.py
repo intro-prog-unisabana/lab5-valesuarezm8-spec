@@ -6,3 +6,5 @@ def obtener_precio_usuario(precio):
 precio=[]
 valor = obtener_precio_usuario(precio)
 print(valor)
+
+
