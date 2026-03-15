@@ -1,7 +1,8 @@
 
-def obtener_precio_usuario():
+def obtener_precio_usuario(precio):
     precio=input("Enter the item's price:\n")
     precio=float(precio)
     return precio
-valor = obtener_precio_usuario()
+precio=[]
+valor = obtener_precio_usuario(precio)
 print(valor)
