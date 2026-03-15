@@ -4,7 +4,7 @@ def obtener_precio_usuario():
     precio=float(precio)
     return precio
 
-valor = obtener_precio_usuario()
-print(valor)
+precio = obtener_precio_usuario()
+print(precio)
 
 
