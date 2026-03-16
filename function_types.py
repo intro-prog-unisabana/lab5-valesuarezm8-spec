@@ -8,7 +8,7 @@ def list_shift(lista, valor):
 def calc_avg(lista):
     suma = 0.0
     for num in lista:
-        suma = suma + num
+        suma = sum(lista, num)
         promedio= suma/len(lista)
         return(promedio)
     
