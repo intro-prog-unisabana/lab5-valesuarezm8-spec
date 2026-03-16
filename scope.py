@@ -7,8 +7,8 @@ def set_globals(some_int= None, some_str=None):
     global_str = some_str
 
 def get_globals():
-    return (global_int, global_str)
+    return global_int, global_str
     
 print(get_globals())       # Salida: (None, None)
-set_globals(10, "Hello")
+set_globals()
 print(get_globals())       # Salida: (10, "Hello")
