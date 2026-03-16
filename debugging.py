@@ -4,7 +4,7 @@
 def get_daily_steps():
     """Return list of daily steps."""
     steps = input("Enter your daily steps for 7 days separated by spaces: ")
-    step_list = steps.split
+    step_list = steps.split()
     step_list = [int(s) for s in step_list]
     return step_list
 
@@ -12,22 +12,24 @@ def get_daily_steps():
 def total_steps(nums):
     """Return total steps."""
     total = sum(nums)
+    return total
 
 # Function to calculate average daily steps
 def average_steps(total, days=7):
     """Return average steps as int."""
-    return total / days
-
+    resultado = int(total / days)
+    return resultado
 # Function to get maximum steps
 def max_steps(nums):
     """Return max steps."""
     max_val = max(nums)
-    return maxvalue
+    return max_val
 
 # Function to get minimum steps
 def min_steps(nums):
     """Return min steps."""
-    return min(nums)
+    min_val=min(nums)
+    return min_val
 
 # Function to check if each day meets the goal
 def goal_check(nums, goal=10000):
