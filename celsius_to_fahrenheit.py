@@ -5,5 +5,4 @@ print(celsius_to_fahrenheit(0))    # Salida esperada: 32.0
 print(celsius_to_fahrenheit(100))  # Salida esperada: 212.0
 print(celsius_to_fahrenheit(-40))  # Salida esperada: -40.0
 
-def transform_data(x: int, y: float, z: str) -> float:
-    # Lógica de la función (oculta para ti)
+
