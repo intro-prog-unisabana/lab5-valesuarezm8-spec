@@ -11,25 +11,24 @@ while True:
     if answer_user == "absolute":
         num = float(input("Enter the number:"))
         result = absolute(num)
-        print("The result is: ",result)
+    else:
+        num1 = float(input("Enter the first number:"))
+        num2 = float(input("Enter the second number:"))
 
-num1 = float(input("Enter the first number:"))
-num2 = float(input("Enter the second number:"))
-
-if answer_user == "add":
-    result= add(num1, num2)
-elif answer_user =="subtract":
-    result=sub(num1, num2)
-elif answer_user =="multiply":
-    result=multiply(num1, num2)
-elif answer_user =="divide":
-    result=divide(num1, num2)
-elif answer_user =="exponent":
-    result=exponent(num1, num2)
-elif answer_user =="modulo":
-    result=modulo(num1, num2)
-elif answer_user =="floor_divide":
-    result=floor_divide(num1, num2)
+    if answer_user == "add":
+        result= add(num1, num2)
+    elif answer_user =="subtract":
+        result=sub(num1, num2)
+    elif answer_user =="multiply":
+        result=multiply(num1, num2)
+    elif answer_user =="divide":
+        result=divide(num1, num2)
+    elif answer_user =="exponent":
+        result=exponent(num1, num2)
+    elif answer_user =="modulo":
+        result=modulo(num1, num2)
+    elif answer_user =="floor_divide":
+        result=floor_divide(num1, num2)
 
 if isinstance(result, str):
     print(result)
