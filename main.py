@@ -1,18 +1,17 @@
 from utils_calc import*
 
-opciones_validas= ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute"]
-
 while True:
-    answer_user= input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit").lower()
+    answer_user= input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit)").lower()
+
     if answer_user == "exit":
         break
-    if answer_user not in opciones_validas:
+    if answer_user not in ["add", "subtract", "multiply", "divide", "exponent", "modulo", "floor_divide", "absolute","exit"]:
         print("Invalid option!")
         continue
-    if opciones_validas == "absolute":
+    if answer_user == "absolute":
         num1 = float(input("Enter the number:"))
-        resultado = absolute(num)
-        print(f"The result is: {resultado}")
+        result = absolute(num)
+        print(f"The result is: {result}")
 
 num1 = float(input("Enter the first number:"))
 num2 = float(input("Enter the second number:"))
