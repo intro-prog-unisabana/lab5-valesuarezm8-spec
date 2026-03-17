@@ -12,7 +12,8 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     if num2 == 0:
-        return print("Error: Division by zero is not allowed.")
+        print("Error: Division by zero is not allowed.")
+        return 0
     division = num1 / num2
     return division
 
@@ -23,14 +24,16 @@ def exponent(base, exp):
 
 def modulo(num1, num2): 
     if num2 == 0:
-        return print("Error: Modulo by zero is not allowed.")
+        print("Error: Modulo by zero is not allowed.")
+        return 0
     residuo = num1 % num2
     return residuo
 
 
 def floor_divide(num1, num2): 
     if num2 == 0:
-        return print("Error: Division by zero is not allowed.")
+        print("Error: Division by zero is not allowed.")
+        return 0
     residuo_decimal = num1 // num2
     return residuo_decimal
 
