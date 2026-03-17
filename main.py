@@ -34,7 +34,7 @@ elif answer_user =="floor_divide":
 if isinstance(result, str):
     print(result)
 else:
-    print(f"The result is: {resultado}")
+    print(f"The result is: {result}")
 
 
     
