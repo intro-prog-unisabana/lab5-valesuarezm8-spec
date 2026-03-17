@@ -10,7 +10,7 @@ while True:
         continue
     if answer_user == "absolute":
         num1 = float(input("Enter the number:"))
-        result = absolute(num)
+        result = absolute(num1)
         print(f"The result is: {result}")
 
 num1 = float(input("Enter the first number:"))
