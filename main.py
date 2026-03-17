@@ -9,9 +9,9 @@ while True:
         print("Invalid option!")
         continue
     if answer_user == "absolute":
-        num1 = float(input("Enter the number:"))
-        result = absolute(num1)
-        print(f"The result is: {result}")
+        num = float(input("Enter the number:"))
+        result = absolute(num)
+        print("The result is: ",result)
 
 num1 = float(input("Enter the first number:"))
 num2 = float(input("Enter the second number:"))
@@ -34,7 +34,7 @@ elif answer_user =="floor_divide":
 if isinstance(result, str):
     print(result)
 else:
-    print(f"The result is: {result}")
+    print("The result is:" ,result)
 
 
     
